@@ -48,13 +48,19 @@
                         <a class="nav-link" aria-current="page" href="#">AnaSayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Hakkımızda</a>
+                        <a class="nav-link" aria-current="page" href="#about">Hakkımızda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Kitaplar</a>
+                        <a class="nav-link" aria-current="page" href="#works">Hizmetlerimiz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">İletişim</a>
+                        <a class="nav-link" aria-current="page" href="#gallery">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#tag">Şubelerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">İletişim</a>
                     </li>
                 </ul>
             </div>
@@ -63,18 +69,24 @@
     <!--NAVBAR BİTİŞ-->
 
     <!--HEADER-->
-    <div class="container-fluid">
+    <div class="container-fluid text-light position-relative p-0">
         <img src="back (2).jpg" class="img-fluid" alt="Responsive image">
-
+        <div
+            class="deneme position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-dumbbell my-5" style="font-size: 50px;"></i>
+            <h1>UTOPİA FİTNESS</h1>
+            <p>Yeni Nesil Spor Salonları</p>
+            <button type="button" class="btn btn-outline-warning btn-lg my-5">Daha Fazlası</button>
+        </div>
     </div>
     <!--HEADER BİTİŞ-->
 
     <!--HAKKIMIZDA-->
-    <div class="container-fluid" style="padding:0 100px 0 100px;">
+    <div class="container-fluid my-5" style="padding:0 100px 0 100px;">
         <div class="row-12 my-4">
             <div class="col text-center smtitle">
                 <i class="bi bi-people baslik"></i>
-                <h1>HAKKIMIZDA</h1>
+                <h1 id="about">HAKKIMIZDA</h1>
             </div>
         </div>
         <!--VİDEO-->
@@ -146,30 +158,53 @@
             <h3>EKİBİMİZ</h3>
         </div>
 
-        <div class="row d-flex justify-content-around mt-5 smtitle">
-            <div class="col-lg-4 col-sm-12 ">
-                <img src="https://i0.wp.com/utopiafitness.com.tr/wp-content/uploads/2023/11/nese.jpg?resize=800%2C800&ssl=1"
-                    width="100%" height="50%">
-                <p>Trainer</p>
-                <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
-                    </i>
-                </h5>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <img src="https://i0.wp.com/utopiafitness.com.tr/wp-content/uploads/2023/11/nese.jpg?resize=800%2C800&ssl=1"
-                    width="100%" height="50%">
-                <p>Trainer</p>
-                <h5>Eylül Solmaz<i class="aboutpageicon bi bi-droplet-half"></i>
-                </h5>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <img src="https://i0.wp.com/utopiafitness.com.tr/wp-content/uploads/2023/11/nese.jpg?resize=800%2C800&ssl=1"
-                    width="100%" height="50%">
-                <p>Trainer</p>
-                <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
-                </h5>
-            </div>
+        <div class="row">
 
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-helping-man-gym.jpg">
+                    <ul class="team-sicon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-helping-man-gym.jpg">
+                    <ul class="team-sicon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-helping-man-gym.jpg">
+                    <ul class="team-sicon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -179,7 +214,7 @@
         <div class="row-12">
             <div class="col text-center smtitle">
                 <i class="bi bi-people baslik"></i>
-                <h1>HİZMETLERİMİZ</h1>
+                <h1 id="works">HİZMETLERİMİZ</h1>
             </div>
         </div>
         <div class="row text-center d-flex justify-content-around my-5">
@@ -216,14 +251,150 @@
                 <p>Kişiye Özel Vücut Analizinden Sonra İsteyen Kullanıcılar Diyetisyene Yönlendirilir ve Analizin
                     Yanında Günlük Hayatlarına Uygun Bir Diyer Listesi Oluşturulur.
                 </p>
-                <div class="col-12 text-center d-flex justify-content-center "><button type="button" class="btn btn-outline-warning btn-lg my-5">Daha Fazlası</button></div>
+                <button type="button" class="btn btn-outline-warning btn-lg my-5">Daha Fazlası</button>
             </div>
 
         </div>
     </div>
     <!--GALERİ-->
-    <div class="container-fluid">
-        bgjhfvdck
+
+    <div class="container my-5" id="team">
+
+        <div class="row-12 mb-5">
+            <div class="col text-center smtitle">
+                <i class="bi bi-people baslik"></i>
+                <h1 id="gallery">GALERİ</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-helping-man-gym.jpg">
+                    <ul class="team-sicon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="close-up-doctor-holding-up-half-orange.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-doing-pilates-reformer.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-with-pilates-trainer-practising-pilates.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-with-pilates-trainer-practising-pilates.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-practising-pilates-pilates-reformer.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="woman-helping-man-gym.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="pexels-jane-doan-1105166.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-team clearfix">
+                    <img alt="team" src="medium-shot-nutritionist-measuring-her-patient.jpg">
+                    <ul class="team-sicon">
+                        <li><a class="bi bi-search-heart"></a></li>
+                    </ul>
+                </div>
+                <div class="smtitle">
+                    <p>Trainer</p>
+                    <h5>Eylül Solmaz <i class="aboutpageicon bi bi-droplet-half"></i>
+                    </h5>
+                </div>
+            </div>
+        </div>
     </div>
     <!--ŞUBELER-->
 
@@ -231,7 +402,7 @@
         <div class="row-12">
             <div class="col text-center smtitle">
                 <i class="bi bi-people baslik"></i>
-                <h1>ŞUBELERİMİZ</h1>
+                <h1 id="tag">ŞUBELERİMİZ</h1>
             </div>
         </div>
         <div class="row text-center d-flex justify-content-around my-5">
@@ -267,16 +438,17 @@
                     src="https://i0.wp.com/utopiafitness.com.tr/wp-content/uploads/2024/02/Calisma-Yuzeyi-1-1.png?fit=200%2C70&ssl=1">
             </div>
         </div>
-        <button type="button" class="btn btn-outline-warning btn-lg my-5">ORTAK OLMAK İÇİN</button>
-
+        <div class="text-center d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-warning btn-lg my-5">ORTAK OLMAK İÇİN</button>
         </div>
-       
+    </div>
+
     <!--İLETİŞİM-->
     <div class="container-fluid" style="padding:0 100px 0 100px;">
         <div class="row-12 my-4">
             <div class="col text-center smtitle">
                 <i class="bi bi-people baslik"></i>
-                <h1>İLETİŞİM</h1>
+                <h1 id="contact">İLETİŞİM</h1>
             </div>
         </div>
         <!--HARİTA-->
@@ -334,14 +506,27 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <!--FOOTER-->
+    <div class="footer container-fluid bg-black p-4 text-light">
+        <div class="row d-flex justify-content-between ">
+            <div class="col-6">
+                <p>MADE WITH IN BANDUNG ©2017 <a href="youtube.com">YOURSITE.COM</a></p>
+            </div>
+            <div class="col-1"><a href="youtube.com"><i class="bi bi-instagram"></i></a></div>
+            <div class="col-1"><a href="youtube.com"><i class="bi bi-threads"></i></a></div>
+            <div class="col-1"><a href="youtube.com"><i class="bi bi-twitter"></i></a></div>
+            <div class="col-1"><a href="youtube.com"><i class="bi bi-whatsapp"></i></a></div>
+        </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

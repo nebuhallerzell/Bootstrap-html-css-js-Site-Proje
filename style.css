@@ -2,6 +2,9 @@
 @import url('https://fonts.cdnfonts.com/css/vilanders-sans');
 @import url('https://fonts.cdnfonts.com/css/rubik-mono-one');
 
+.deneme{
+    flex-direction: column;
+}
 
 * {
     font-family: "open sans", sans-serif;
@@ -11,16 +14,6 @@ body{
     margin:0%;
     padding:0%;
 }
-/*.mavi{
-    background-image: url("back\ \(2\).jpg");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    height: 100vh;
-}*/
 
 .baslik {
     color: #f0e91f;
@@ -36,13 +29,13 @@ body{
     border-radius: 100px;
     width: 40px;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 hr {
     border: 0;
     height: 5px;
     background: linear-gradient(rgb(255, 225, 0) 30%, rgb(0, 0, 0) 70%);
-
 }
 
 .handwritten {
@@ -60,19 +53,18 @@ button:hover {
     color: #e8dfdfe4;
 }
 
-.smtitle h1,
+h1,.smtitle h1,
 h2,
 h3,
 h4,
 h5 {
-    margin-bottom: 20px;
     font-family: 'Rubik Mono One', sans-serif !important;
 }
 
 .smtitle p {
     font-family: 'Rubik Mono One', sans-serif !important;
     font-size: 16px;
-    color: rgb(99, 99, 99);
+    color: rgb(174, 174, 174);
     margin: 0;
 }
 .smtitle u{
@@ -80,12 +72,73 @@ h5 {
 }
 
 .works{
-    background-color: rgba(0, 0, 0, 0.489);
+    background-color: rgba(0, 0, 0, 0.638);
     padding: 5px;
     height:100%;
 }
+/* ekip */
 
-input,textarea:after{
-border: 1px solid black;
+.img-team {position:relative;}
+.team-sicon {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+	opacity:0;
+    width: 100%;
+	transition:0.3s;
+}
+.img-team:hover .team-sicon {
+	opacity:1;
+	top:50%;
+}
+.img-team:hover {
+    background: #333;
+}
+.img-team img {
+    max-width: 100%; 
+    max-height: 100%;
+    width: auto;
+    height: auto; 
+    transition: 0.2s;
 }
 
+.img-team:hover img {
+    opacity: 0.5;
+    position: relative;
+    z-index: 0;
+}
+.team-sicon > li {
+    display: inline-block;
+}
+.team-sicon a {
+    background: #f3ef08 none repeat scroll 0 0;
+    border-radius: 100px;
+	border:2px solid#f3ef08;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+	line-height:26px;
+}
+.team-sicon a:hover{
+	border-color:#f3ef08;
+	color:#f3ef08;
+	background:transparent;
+}
+.footer a{
+    background-color: #333;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;  
+    color: white; 
+    padding: 5px;
+}
+.footer a:hover{
+    background-color: #f3ef08;
+    color: black;
+
+}
