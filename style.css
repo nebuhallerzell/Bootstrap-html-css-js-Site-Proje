@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/handwriting');
+@import url('https://fonts.cdnfonts.com/css/vilanders-sans');
+@import url('https://fonts.cdnfonts.com/css/rubik-mono-one');
+
+
+* {
+    font-family: "open sans", sans-serif;
+    line-height: 2;
+}
+body{
+    margin:0%;
+    padding:0%;
+}
+/*.mavi{
+    background-image: url("back\ \(2\).jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+}*/
+
+.baslik {
+    color: #f0e91f;
+    font-size: 50px;
+    line-height: 1 !important;
+}
+
+.aboutpageicon {
+    float: right;
+    font-size: 20px;
+    background-color: #00000061;
+    color: #f0e91f;
+    border-radius: 100px;
+    width: 40px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background: linear-gradient(rgb(255, 225, 0) 30%, rgb(0, 0, 0) 70%);
+
+}
+
+.handwritten {
+    font-family: "Playfair Display", serif;
+}
+
+.navbar a,
+button {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar a:hover,
+button:hover {
+    color: #e8dfdfe4;
+}
+
+.smtitle h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 20px;
+    font-family: 'Rubik Mono One', sans-serif !important;
+}
+
+.smtitle p {
+    font-family: 'Rubik Mono One', sans-serif !important;
+    font-size: 16px;
+    color: rgb(99, 99, 99);
+    margin: 0;
+}
+.smtitle u{
+    font-size: 30px;
+}
+
+.works{
+    background-color: rgba(0, 0, 0, 0.489);
+    padding: 5px;
+    height:100%;
+}
+
+input,textarea:after{
+border: 1px solid black;
+}
+
